@@ -196,7 +196,7 @@ default['jmxtrans']['default_queries'] = {
       'obj' => 'java.lang:type=Threading',
       'attr' => %w(DaemonThreadCount PeakThreadCount ThreadCount TotalStartedThreadCount)
     }
-           ],
+  ],
   'kafka' => [
     {
       'obj' => 'kafka:type=kafka.SocketServerStats',
@@ -224,7 +224,7 @@ default['jmxtrans']['default_queries'] = {
        'result_alias' => 'datasources',
        'attr' => %w(NumActive NumIdle NumQueryThreads)
     }
-              ],
+  ],
   'zookeeper' => [
     {
       'obj' => 'org.apache.ZooKeeperService:name0=ReplicatedServer_id*',
